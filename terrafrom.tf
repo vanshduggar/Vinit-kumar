@@ -18,6 +18,6 @@ resource "aws_instance" "web" {
               EOF
 }
 
-output "13.127.90.4 " {
+output "13.127.90.4" {
   value = aws_instance.web.public_ip
 }
